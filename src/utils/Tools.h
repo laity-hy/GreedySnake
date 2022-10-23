@@ -5,7 +5,7 @@
 #ifndef GREEDYSNAKE_TOOLS_H
 #define GREEDYSNAKE_TOOLS_H
 
-void SetWindowSize(int cols, int lines);//设置窗口标题、大小、暂停
+void SetWindowSize(int cols, int lines);//设置窗口标题、大小
 
 void SetCursorPosition(int x, int y);//设置光标位置
 

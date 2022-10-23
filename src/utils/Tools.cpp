@@ -6,9 +6,9 @@
 #include <windows.h>
 
 void SetWindowSize(int cols, int lines) {
-    system("title laity写的贪吃蛇");
+    system("title laity");
     char cmd[30];
-    sprintf(cmd, "mode con cols=%d lines=%d", cols * 2, lines);//一个图形字符占两个字符，所以宽度乘以2
+    sprintf(cmd, "mode con cols=%d lines=%d", cols * 2, lines);
     system(cmd);
 }
 

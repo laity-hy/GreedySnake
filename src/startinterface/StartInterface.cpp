@@ -6,7 +6,7 @@
 #include <windows.h>
 
 StartInterface::StartInterface() {
-    speed = 35;
+    speed = 35;//设置动画速度
     startsnake.emplace_back(Point(0, 14));
     startsnake.emplace_back(Point(1, 14));
     startsnake.emplace_back(Point(2, 15));
