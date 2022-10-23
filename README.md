@@ -26,13 +26,13 @@ void Select();//选择游戏难度
 
 void DrawGame() const;//绘制游戏地图和菜单界面
 
-int PlayGame();
+int PlayGame();//开始游戏
 
-void UpdateScore(const int &tmp);
+void UpdateScore(const int &tmp);//更新分数
 
-void RewriteScore() const;
+void RewriteScore() const;//将分数更新到菜单界面
 
-static int Menu();
+static int Menu();//是否退出游戏菜单界面
 
 void Game();//游戏的入口，加载开始动画，加载游戏
 
