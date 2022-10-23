@@ -16,8 +16,6 @@ public:
 
 private:
     std::vector<Point> initMap;
-    std::vector<Point> map1;
-    std::vector<Point> map2;
 };
 
 

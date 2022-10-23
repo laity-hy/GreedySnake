@@ -8,6 +8,11 @@
 
 ### Map
 
+```c++
+地图对外接口
+void PrintInitMap();
+```
+
 ### Point
 
 ### Snake

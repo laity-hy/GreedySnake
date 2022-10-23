@@ -127,6 +127,6 @@ Map::Map() {
 void Map::PrintInitMap() {
     for (auto &point: initMap) {
         point.Print();
-        Sleep(10);
+        Sleep(10);//地图的绘画速度
     }
 }
