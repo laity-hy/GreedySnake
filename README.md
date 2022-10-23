@@ -19,7 +19,25 @@ void PrintInitMap();
 
 ## controller控制层
 
-### Controller
+```c++
+static void Start();//游戏的开始界面的加载
+
+void Select();//选择游戏难度
+
+void DrawGame() const;//绘制游戏地图和菜单界面
+
+int PlayGame();
+
+void UpdateScore(const int &tmp);
+
+void RewriteScore() const;
+
+static int Menu();
+
+void Game();//游戏的入口，加载开始动画，加载游戏
+
+int GameOver() const;//游戏结束
+```
 
 ## startinterface开始界面层
 

@@ -248,7 +248,6 @@ int Controller::PlayGame() {
         case 2:
             return 2;//ÍË³ö
     }
-    return 2;
 }
 
 void Controller::UpdateScore(const int &tmp) {
@@ -423,7 +422,7 @@ int Controller::GameOver() const {
     std::cout << " ©§                                          ©§";
     Sleep(30);
     SetCursorPosition(10, 21);
-    std::cout << "©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥";
+    std::cout << "©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥";
 
     Sleep(100);
     SetCursorPosition(12, 18);
