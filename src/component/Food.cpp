@@ -3,7 +3,7 @@
 //
 
 #include "Food.h"
-#include "../utils/Tools.h"
+#include "Tools.h"
 #include <cstdlib>
 #include <iostream>
 

@@ -3,7 +3,7 @@
 //
 
 #include "Snake.h"
-#include "../utils/Tools.h"
+#include "Tools.h"
 #include <conio.h>
 #include <iostream>
 

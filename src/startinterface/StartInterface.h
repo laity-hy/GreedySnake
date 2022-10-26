@@ -7,7 +7,7 @@
 
 #include <deque>
 #include <vector>
-#include "../component/Point.h"
+#include "Point.h"
 
 class StartInterface {
 public:

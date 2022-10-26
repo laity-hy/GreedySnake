@@ -15,3 +15,8 @@ add_executable(GreedySnake
         src/component/Map.cpp src/component/Map.h
         src/component/Point.cpp src/component/Point.h
         src/component/Snake.cpp src/component/Snake.h)
+
+include_directories(src/component)
+include_directories(src/controller)
+include_directories(src/startinterface)
+include_directories(src/utils)

@@ -6,10 +6,14 @@
 #include <windows.h>
 
 void SetWindowSize(int cols, int lines) {
-    system("title laity");
+    /*system("title laity");
     char cmd[30];
     sprintf(cmd, "mode con cols=%d lines=%d", cols * 2, lines);
-    system(cmd);
+    system(cmd);*/
+    COORD coord;
+    coord.X = cols * 2;
+    coord.Y = lines;
+    SetConsoleScreenBufferSize(GetStdHandle(STD_OUTPUT_HANDLE), coord);
 }
 
 void SetCursorPosition(const int x, const int y) {

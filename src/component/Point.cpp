@@ -3,7 +3,7 @@
 //
 
 #include "Point.h"
-#include "../utils/Tools.h"
+#include "Tools.h"
 #include <iostream>
 
 Point::Point() {}

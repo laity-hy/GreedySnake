@@ -7,14 +7,14 @@
 #include <windows.h>
 #include <conio.h>
 #include "Controller.h"
-#include "../utils/Tools.h"
-#include "../startinterface/StartInterface.h"
-#include "../component/Map.h"
-#include "../component/Snake.h"
+#include "Tools.h"
+#include "StartInterface.h"
+#include "Map.h"
+#include "Snake.h"
 
 
 void Controller::Start() {
-    SetWindowSize(41, 32);
+    SetWindowSize(40, 32);
     SetCursorNoVisible();
     SetColor(14);
     auto *startInterface = new StartInterface();
